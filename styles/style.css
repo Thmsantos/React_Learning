@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.titulo {
+    background-color: #ffffff;
+    border: 1rem solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.city,
+.date,
+.situacao,
+.print_temp,
+.low-high {
+    border: 1rem solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.graus {
+    border: 1rem solid rgb(255, 255, 255);
+    color: rgb(255, 254, 254);
+    font-size: 2rem;
+    text-align: center;
+}
+
+i {
+    width: 20rem;
+    height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#ipt_cdd{
+    width: 20rem;
+    height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+} 
+
+span {
+    color: rgb(0, 0, 0);
+}
+
+
+.txt {
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0)
+}
