@@ -1,5 +1,5 @@
-<strong><h1>API de endereço, utilizando o CEP</h1></strong>
-<br>
+<strong><h1 align="center">API de endereço, utilizando o CEP</h1></strong>
+
 <h2>Redes Sociais:</h2>
 <a href="https://www.facebook.com/thiago.messias.961"><h3>facebook</h3></a>
 <hr>
