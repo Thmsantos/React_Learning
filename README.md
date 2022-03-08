@@ -1,4 +1,4 @@
-<strong><h1 align="center">API de temperatura, utilizando a localização e a caixa de busca</h1></strong>
+<strong><h1 align="center">API de Temperatura, utilizando a localização e a caixa de busca</h1></strong>
 
 <h2>Redes Sociais:</h2>
 <a href="https://www.facebook.com/thiago.messias.961"><h3>facebook</h3></a>
