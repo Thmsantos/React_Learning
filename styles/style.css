@@ -11,13 +11,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: rgb(255, 102, 102);
 }
 
 .titulo {
     background-color: #ffffff;
-    border: 1rem solid rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
     font-size: 2rem;
 }
 
@@ -26,15 +24,15 @@
 .situacao,
 .print_temp,
 .low-high {
-    border: 1rem solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 102, 102);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     text-align: center;
 }
 
 .graus {
-    border: 1rem solid rgb(255, 255, 255);
-    color: rgb(255, 254, 254);
+    border: 1rem solid rgb(255, 102, 102);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     text-align: center;
 }
@@ -48,18 +46,35 @@ i {
 
 #ipt_cdd{
     width: 20rem;
-    height: 1rem;
+    height: 2rem;
     font-size: 1rem;
     text-align: center;
+    border: 2px solid rgb(0, 0, 0);
 } 
 
 span {
     color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-left: 100px;
 }
 
 
-.txt {
-    text-align: center;
-    font-size: 2rem;
-    color: rgba(0, 0, 0, 0)
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.thiago{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cor{
+    background-color: rgb(255, 102, 102);
+    color: rgb(255, 102, 102);
 }
