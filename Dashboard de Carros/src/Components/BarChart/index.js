@@ -1,0 +1,78 @@
+import React, { useState, useEffect } from 'react'
+import { Bar, defaults } from 'react-chartjs-2'
+
+defaults.global.tooltips.enabled = false
+defaults.global.legend.position = 'bottom'
+
+const BarChart = (props) => {
+  var url = props.url
+  const [chart, setChart] = useState([])
+useEffect(() => {
+  const fecthCars = async () => {
+    await fetch(url,{
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then((response) => response.json())
+    .then((json) => {
+      console.log(json)
+      setChart(json)
+    })
+  }
+  fecthCars()
+}, [url])
+      return (
+      <div>
+      <Bar
+        data={{
+          labels: chart?.página1?.map(x => x.nome),
+          datasets: [
+            {
+              label: '',
+              data: chart?.página1?.map(x => x.qtdVenda),
+              backgroundColor: [
+                'rgba(255, 48, 23, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(232, 123, 94, 0.2)',
+                'rgba(93, 234, 121, 0.2)',
+                'rgba(0, 102, 255, 0.2)',
+                'rgba(4, 03, 64, 0.2)',
+              ],
+              borderColor: [
+                'rgba(255, 48, 23, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(232, 123, 94, 0.2)',
+                'rgba(93, 234, 121, 0.2)',
+                'rgba(0, 102, 255, 0.2)',
+                'rgba(4, 03, 64, 0.2)',
+              ],
+              borderWidth: 1,
+            },
+          ],
+        }}
+        height={400}
+        width={600}
+        options={{
+          maintainAspectRatio: false,
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+          legend: {
+            labels: {
+              fontSize: 25,
+            },
+          },
+        }}
+      />
+    </div>
+  );
+}
+
+export default BarChart;

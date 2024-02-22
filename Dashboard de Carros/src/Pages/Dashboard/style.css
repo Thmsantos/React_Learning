@@ -1,0 +1,37 @@
+.display-graphic{
+    display: flex;
+}
+
+.alt-pizza{
+    width: 800px;
+    height: 600px;
+}
+
+.background-novos{
+    background-color: #e6e6e6;
+}
+
+.background-usados{
+    background-color: #c5c5c5;
+}
+
+.alt-bar{
+    width: 800px;
+    height: 600px;
+}
+
+@media (max-width: 800px) {
+    .display-graphic{
+        display: block;
+    }
+
+    .alt-pizza{
+        width: 400px !important;
+        height: 300px !important;
+    }
+
+    .alt-bar{
+        width: 400px !important;
+        height: 500px !important;
+    }
+}
