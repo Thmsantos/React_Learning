@@ -1,0 +1,18 @@
+create database cinema;
+use cinema;
+
+desc programacaos;
+
+select * from programacaos;
+
+insert into programacaos values(null, 'Sala 1', 'Orfã: A origem', '98min', '15:00', '0','Depois de orquestrar uma fuga de uma clínica psiquiátrica da Estônia, Esther viaja para os Estados Unidos se passando pela filha desaparecida de uma família rica que procura uma menina por quatro anos.',now(), now());
+insert into programacaos values(null, 'Sala 1', 'Orfã: A origem', '98min', '18:00', '0', 'Depois de orquestrar uma fuga de uma clínica psiquiátrica da Estônia, Esther viaja para os Estados Unidos se passando pela filha desaparecida de uma família rica que procura uma menina por quatro anos.',now(), now());
+insert into programacaos values(null, 'Sala 2', 'Não se preocupe, querida', '123min', '17:00', '0', 'Uma dona de casa que vive em uma comunidade experimental começa a suspeitar que a empresa de seu marido está escondendo segredos perturbadores.',now(), now());
+insert into programacaos values(null, 'Sala 3', 'O telefone preto', '103min', '22:00', '0', 'Finney Shaw, de 13 anos, é sequestrado por um sádico assassino mascarado e mantido em um porão à prova de som. Até que um telefone desconectado na parede começa a tocar, e ele logo descobre que pode ouvir as vozes das vítimas anteriores do maníaco.',now(), now());
+insert into programacaos values(null, 'Sala 4', 'A mulher Rei', '120min', '16:00', '0', 'Em 1800, o general Nanisca treina um grupo de mulheres guerreiras para proteger o reino africano de Dahomey de um inimigo estrangeiro.',now(), now());
+insert into programacaos values(null, 'Sala 4', 'A mulher Rei', '120min', '20:00', '0', 'Em 1800, o general Nanisca treina um grupo de mulheres guerreiras para proteger o reino africano de Dahomey de um inimigo estrangeiro.',now(), now());
+insert into programacaos values(null, 'Sala 5', 'Avatar', '150min', '18:00', '0', 'No exuberante mundo alienígena de Pandora vivem os Navi, seres que parecem ser primitivos, mas são altamente evoluídos. Como o ambiente do planeta é tóxico, foram criados os avatares, corpos biológicos controlados pela mente humana que se movimentam livremente em Pandora. Jake Sully, um ex-fuzileiro naval paralítico, volta a andar através de um avatar e se apaixona por uma Navi. Esta paixão leva Jake a lutar pela sobrevivência de Pandora.',now(), now());
+insert into programacaos values(null, 'Sala 6', 'Sorria', '115min', '21:00', '0', 'Após um paciente sofrer um trauma, um médico começa a se distrair em seus próprios pensamentos.',now(), now());
+insert into programacaos values(null, 'Sala 7', 'A Queda', '107min', '15:00', '0', 'O Terror Alcança Novas Alturas! Para Becky e Hunter, vencer o medo é encará-lo de frente. Mas será que elas vão continuar pensando assim depois de escalarem quase 600 metros de uma torre de rádio remota e abandonada?',now(), now());
+insert into programacaos values(null, 'Sala 7', 'A Queda', '107min', '20:30', '0', 'O Terror Alcança Novas Alturas! Para Becky e Hunter, vencer o medo é encará-lo de frente. Mas será que elas vão continuar pensando assim depois de escalarem quase 600 metros de uma torre de rádio remota e abandonada?',now(), now());
+
