@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.semaforo_vermelho,
+.semaforo_amarelo,
+.semaforo_verde{
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  border-radius: 60px;
+  margin: 10px;
+}
+
+
+.container{
+  border: 8px solid black;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: gray;
+}
